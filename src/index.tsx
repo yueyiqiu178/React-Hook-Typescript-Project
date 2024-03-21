@@ -5,13 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MemoI from './component/Memo';
 import ReducerI from './component/Reducer';
+import CalculateI from './component/Calculate';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <ReducerI />
+    <CalculateI />
   </React.StrictMode>
 );
 
